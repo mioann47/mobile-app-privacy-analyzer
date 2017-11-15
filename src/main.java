@@ -10,7 +10,7 @@ public class main {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 
-	    Process proc = Runtime.getRuntime().exec("java -jar PermissionChecker.jar app.apk");
+	    Process proc = Runtime.getRuntime().exec("java -jar PermissionChecker.jar apks/org.adaway_60.apk");
 	    proc.waitFor();
 	    // Then retreive the process output
 	    InputStream in = proc.getInputStream();
@@ -19,6 +19,7 @@ public class main {
 	    byte b[]=new byte[in.available()];
 	    in.read(b,0,b.length);
 	    String data = new String(b);
+	    System.out.println(data);
 	    Gson g= new Gson();
 	   
 	    models.ApplicationPermissionsModel p = g.fromJson(data, models.ApplicationPermissionsModel.class);

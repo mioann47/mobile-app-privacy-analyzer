@@ -75,7 +75,7 @@ public class main {
 	    byte b[]=new byte[in.available()];
 	    in.read(b,0,b.length);
 	    String data = new String(b);
-	    System.out.println(data);
+	   // System.out.println("Permissions from .jar:\n"+data);
 	    Gson g= new Gson();
 	   
 	    models.ApplicationPermissionsModel p = g.fromJson(data, models.ApplicationPermissionsModel.class);
@@ -88,42 +88,58 @@ public class main {
 		
 	}
 	
-	
+	public static void printlist(ArrayList<String> list,String title) {
+	    System.out.println("\n***"+title+":***");
+	    for (int i=0;i<list.size();i++) {
+	    	 System.out.println(list.get(i));
+	    }
+		
+	}
+public static final boolean WEBMODE=true;	
+public static final String APKPATH="apks/app2.apk";
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
-		ApplicationPermissionsModel apm=getPermissions("apks/org.adaway_60.apk");
+		ApplicationPermissionsModel apm=getPermissions(APKPATH);
 		//System.out.println(apm.declared.toString());
-		
-	    //String jdata = getJSON("http://192.168.1.100:5000/apk");
+		Gson g= new Gson();
+		LibraryModel[] libModels;
+		if (WEBMODE) {
+	    String jdata = getJSON("http://192.168.1.100:5000/apk");
 	    //System.out.println(jdata);
-	    Gson g= new Gson();
-	    //LibraryModel[] libArray = g.fromJson(jdata, LibraryModel[].class);
+	    
+	    libModels = g.fromJson(jdata, LibraryModel[].class);
 	    
 	    //System.out.println("Test="+array[1].Popularity);
 	    //System.out.println("Test="+array[3].Popularity);
 	    //System.out.println("Test="+array[0].Permission.toString());
+		}else {
 	    String JSON_PATH = "apk.json";
 
-	    Gson gson = new Gson();
-	    BufferedReader br = new BufferedReader(new FileReader(JSON_PATH));
-	    LibraryModel[] libModels = g.fromJson(br, LibraryModel[].class);
-	    //System.out.println("Test="+libModels[0].Permission.toString());
 	    
+	    BufferedReader br = new BufferedReader(new FileReader(JSON_PATH));
+	    libModels = g.fromJson(br, LibraryModel[].class);
+		
+		}
 	    ArrayList<String> libsPermissions = new ArrayList<String>();
 	    
 	    for (int i=0;i<libModels.length;i++) {
 	    	libsPermissions.addAll(libModels[i].Permission);
 	    }
-	    //System.out.println(libsPermissions.toString());
+
 	    Set<String> hs = new HashSet<>();
 	    hs.addAll(libsPermissions);
 	    libsPermissions.clear();
 	    libsPermissions.addAll(hs);
 	    
-	    //System.out.println(libsPermissions.toString());
+
 	    libsPermissions.removeAll(apm.declared);
-	    System.out.println(libsPermissions.toString());
+
+	    printlist(apm.declared,"Permissions declared in apk");
+	    printlist(apm.notRequiredButUsed,"Permissions not declared but used in apk");
+	    printlist(apm.requiredAndUsed,"Permissions declared and used in apk");
+	    printlist(apm.requiredAndUsed,"Permissions declared and not used in apk");
+	    printlist(libsPermissions,"Permissions used by Libraries but not declared in apk");
 	    
 	}
 

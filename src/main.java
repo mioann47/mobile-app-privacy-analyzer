@@ -110,11 +110,10 @@ public static final String APKPATH="apks/app2.apk";
 	    
 	    libModels = g.fromJson(jdata, LibraryModel[].class);
 	    
-	    //System.out.println("Test="+array[1].Popularity);
-	    //System.out.println("Test="+array[3].Popularity);
-	    //System.out.println("Test="+array[0].Permission.toString());
+
 		}else {
 	    String JSON_PATH = "apk.json";
+	    
 
 	    
 	    BufferedReader br = new BufferedReader(new FileReader(JSON_PATH));

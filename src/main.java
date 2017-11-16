@@ -9,8 +9,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import com.google.gson.Gson;
 
@@ -97,6 +95,7 @@ public class main {
 	}
 public static final boolean WEBMODE=true;	
 public static final String APKPATH="apks/app2.apk";
+public static final String serverIPandPort = "http://172.20.240.45:5000/apk";
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
@@ -105,7 +104,7 @@ public static final String APKPATH="apks/app2.apk";
 		Gson g= new Gson();
 		LibraryModel[] libModels;
 		if (WEBMODE) {
-	    String jdata = getJSON("http://192.168.1.100:5000/apk");
+	    String jdata = getJSON(serverIPandPort);
 	    //System.out.println(jdata);
 	    
 	    libModels = g.fromJson(jdata, LibraryModel[].class);

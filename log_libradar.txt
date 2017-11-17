@@ -1,0 +1,8 @@
+Fri, 17 Nov 2017 15:13:22 literadar.py[line:85] ERROR app2.apk is not a valid file.
+Fri, 17 Nov 2017 15:14:33 literadar.py[line:85] ERROR app2.apk is not a valid file.
+Fri, 17 Nov 2017 15:37:45 literadar.py[line:85] ERROR app2.apk is not a valid file.
+Fri, 17 Nov 2017 15:38:57 literadar.py[line:85] ERROR app2.apk is not a valid file.
+Fri, 17 Nov 2017 15:40:28 literadar.py[line:124] DEBUG APK pythonscripts/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Fri, 17 Nov 2017 15:40:29 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\pythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex
+Fri, 17 Nov 2017 15:47:43 literadar.py[line:124] DEBUG APK pythonscripts/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Fri, 17 Nov 2017 15:47:43 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\pythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex

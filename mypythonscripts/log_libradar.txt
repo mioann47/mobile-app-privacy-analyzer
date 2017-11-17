@@ -1,0 +1,378 @@
+Tue, 07 Nov 2017 10:58:46 literadar.py[line:124] DEBUG APK app.apk's MD5 is 8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec
+Tue, 07 Nov 2017 10:58:46 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/ade/LiteRadar/LiteRadar/Data/Decompiled/8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec/classes.dex
+Tue, 07 Nov 2017 11:03:54 literadar.py[line:124] DEBUG APK com.touchtype.swiftkey.beta_6.7.1.33-820052501_minAPI23(arm64-v8a)(nodpi)_apkmirror.com.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Tue, 07 Nov 2017 11:03:54 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/ade/LiteRadar/LiteRadar/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:49:18 literadar.py[line:124] DEBUG APK com.touchtype.swiftkey.beta_6.7.1.33-820052501_minAPI23(arm64-v8a)(nodpi)_apkmirror.com.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 17:49:19 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/ade/LiteRadar/LiteRadar/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:49:54 literadar.py[line:124] DEBUG APK com.touchtype.swiftkey.beta_6.7.1.33-820052501_minAPI23(arm64-v8a)(nodpi)_apkmirror.com.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 17:49:55 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/ade/LiteRadar/LiteRadar/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:51:35 literadar.py[line:124] DEBUG APK com.touchtype.swiftkey.beta_6.7.1.33-820052501_minAPI23(arm64-v8a)(nodpi)_apkmirror.com.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 17:51:35 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/ade/LiteRadar/LiteRadar/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:52:11 literadar.py[line:124] DEBUG APK com.touchtype.swiftkey.beta_6.7.1.33-820052501_minAPI23(arm64-v8a)(nodpi)_apkmirror.com.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 17:52:11 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/ade/LiteRadar/LiteRadar/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:54:44 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 17:54:44 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 17:54:57 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 17:54:57 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 17:54:57 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 17:54:57 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 17:55:05 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 17:55:05] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 17:55:14 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 17:55:14 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:55:33 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 17:55:33] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 17:56:02 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/literadar.py', reloading
+Wed, 15 Nov 2017 17:56:02 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 17:59:21 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 17:59:21 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 17:59:21 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 17:59:21 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 17:59:30 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 17:59:30 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 17:59:48 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 17:59:48] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:00:29 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:00:29 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:00:29 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:00:29 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:00:41 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:00:41 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:00:57 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:00:57] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:01:17 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:01:17 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:01:17 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:01:17 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:01:29 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:01:29] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:18 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:04:18 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:04:18 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:04:18 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:04:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:27] "GET /apk HTTP/1.1" 500 -
+Wed, 15 Nov 2017 18:04:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:27] "GET /apk?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:27] "GET /apk?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:27] "GET /apk?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:27] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:27] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:45 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:04:45 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:04:45 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:04:45 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:04:47 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:47] "GET /apk HTTP/1.1" 500 -
+Wed, 15 Nov 2017 18:04:47 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:47] "GET /apk?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:47 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:47] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:47 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:47] "GET /apk?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:47 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:47] "GET /apk?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:47 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:04:47] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:04:59 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:04:59 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:04:59 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:04:59 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:05:00 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:00] "GET /apk HTTP/1.1" 500 -
+Wed, 15 Nov 2017 18:05:01 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:01] "GET /apk?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:01 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:01] "GET /apk?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:01 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:01] "GET /apk?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:01 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:01] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:01 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:01] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:02 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:02] "GET /apk HTTP/1.1" 500 -
+Wed, 15 Nov 2017 18:05:02 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:02] "GET /apk?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:02 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:02] "GET /apk?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:02 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:02] "GET /apk?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:02 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:02] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:02 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:02] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:31 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:05:31 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:05:31 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:05:31 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:05:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:34] "GET /apk HTTP/1.1" 500 -
+Wed, 15 Nov 2017 18:05:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:34] "GET /apk?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:34] "GET /apk?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:34] "GET /apk?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:34] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:05:34] "GET /apk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:05:45 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:05:45 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:05:45 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:05:45 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:05:51 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:05:51 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:06:08 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:06:08] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:06:55 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:06:55 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:06:55 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:06:55 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:07:03 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:07:03 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:07:04 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:07:04 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:07:18 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:07:18 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:07:34 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:07:34] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:08:13 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:08:13 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:08:14 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:08:14 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:08:21 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:08:21 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:08:38 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:08:38] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:09:27 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/literadar.py', reloading
+Wed, 15 Nov 2017 18:09:27 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:09:27 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:09:27 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:09:33 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:09:33 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:09:49 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:09:49] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:10:54 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:10:54 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:10:54 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:10:54 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:11:00 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:11:00 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:11:18 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:11:18] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:11:34 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:11:35 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:11:35 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:11:35 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:11:48 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:11:48 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:11:48 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:11:48 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:11:54 literadar.py[line:124] DEBUG APK app.apk's MD5 is 8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec
+Wed, 15 Nov 2017 18:11:54 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec/classes.dex
+Wed, 15 Nov 2017 18:11:55 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:11:55] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 18:12:08 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Wed, 15 Nov 2017 18:12:08 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 18:12:08 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 18:12:08 _internal.py[line:87] INFO  * Debugger PIN: 121-410-504
+Wed, 15 Nov 2017 18:12:14 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 18:12:14 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 18:12:31 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 18:12:31] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 19:40:01 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 19:40:01 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 19:40:01 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 19:40:01 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 19:40:30 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 19:40:30] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 19:40:39 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 19:40:40 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 19:40:59 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 19:40:59] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 19:47:19 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 19:47:19 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 19:47:19 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 19:47:19 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 19:47:26 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 19:47:26] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 19:51:13 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 19:51:13 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 19:51:13 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 19:51:13 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 19:51:37 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 19:51:37] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:10:15 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 20:10:15 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 20:10:15 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 20:10:15 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 20:16:09 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 20:16:10 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 20:16:10 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 20:16:10 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 20:16:23 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:16:23] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:16:23 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:16:23] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:16:27 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:16:27] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 20:29:50 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 20:29:50 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 20:29:50 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 20:29:50 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 20:35:21 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 20:35:21 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 20:35:21 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 20:35:21 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 20:35:43 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:35:43] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:35:44 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:35:44] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 20:50:47 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 20:50:55 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:50:55] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 20:51:06 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:51:06] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 20:51:07 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 20:51:07] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:51:14 _internal.py[line:87] INFO 192.168.1.100 - - [15/Nov/2017 20:51:14] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 20:51:15 _internal.py[line:87] INFO 192.168.1.100 - - [15/Nov/2017 20:51:15] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:51:20 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 20:51:20] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 20:51:20 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 20:51:20] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 20:51:43 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 20:51:43 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 20:52:01 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 20:52:01] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:14:04 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 21:14:09 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 21:14:09] "GET /tasks HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:14:15 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:14:15 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:14:31 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 21:14:31] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:14:58 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:14:58 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:15:15 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:15:15] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:15:29 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:15:30 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:15:45 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:15:45] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:23:32 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:23:32 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:23:48 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:23:48] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:24:16 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:24:16 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:24:30 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:24:30] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:25:11 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:25:11 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:25:27 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:25:27] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:26:38 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:26:38 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:26:53 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:26:53] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:27:27 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:27:27 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:27:41 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:27:41] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:27:55 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:27:55 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:28:10 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:28:10] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:28:34 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:28:34 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:28:50 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:28:50] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:31:48 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 21:31:58 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:31:58 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:32:14 _internal.py[line:87] INFO 127.0.0.1 - - [15/Nov/2017 21:32:14] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:32:27 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:32:27 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:32:43 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:32:43] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:39:33 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:39:33 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:39:56 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:39:56] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:39:56 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:39:56] "GET /favicon.ico HTTP/1.1" 404 -
+Wed, 15 Nov 2017 21:41:48 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:41:48 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:42:04 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:42:04] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:43:54 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:43:54 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:44:09 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:44:09] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:49:25 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Wed, 15 Nov 2017 21:49:25 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Wed, 15 Nov 2017 21:49:42 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:49:42] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:50:04 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Wed, 15 Nov 2017 21:50:04 _internal.py[line:87] INFO  * Restarting with stat
+Wed, 15 Nov 2017 21:50:04 _internal.py[line:87] WARNING  * Debugger is active!
+Wed, 15 Nov 2017 21:50:04 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Wed, 15 Nov 2017 21:50:16 literadar.py[line:124] DEBUG APK org.adaway_60.apk's MD5 is d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e
+Wed, 15 Nov 2017 21:50:16 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e/classes.dex
+Wed, 15 Nov 2017 21:50:24 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:50:24] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 21:50:53 literadar.py[line:124] DEBUG APK org.adaway_60.apk's MD5 is d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e
+Wed, 15 Nov 2017 21:50:53 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e/classes.dex
+Wed, 15 Nov 2017 21:50:59 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 21:50:59] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 22:31:42 literadar.py[line:124] DEBUG APK org.adaway_60.apk's MD5 is d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e
+Wed, 15 Nov 2017 22:31:42 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e/classes.dex
+Wed, 15 Nov 2017 22:31:49 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 22:31:49] "GET /apk HTTP/1.1" 200 -
+Wed, 15 Nov 2017 22:33:28 literadar.py[line:124] DEBUG APK org.adaway_60.apk's MD5 is d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e
+Wed, 15 Nov 2017 22:33:28 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e/classes.dex
+Wed, 15 Nov 2017 22:33:36 _internal.py[line:87] INFO 192.168.1.50 - - [15/Nov/2017 22:33:36] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 00:37:49 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Thu, 16 Nov 2017 00:37:49 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 00:37:49 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 00:37:49 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 00:38:11 _internal.py[line:87] INFO 192.168.1.50 - - [16/Nov/2017 00:38:11] "GET /tasks HTTP/1.1" 200 -
+Thu, 16 Nov 2017 00:38:11 _internal.py[line:87] INFO 192.168.1.50 - - [16/Nov/2017 00:38:11] "GET /favicon.ico HTTP/1.1" 404 -
+Thu, 16 Nov 2017 00:38:59 literadar.py[line:124] DEBUG APK org.adaway_60.apk's MD5 is d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e
+Thu, 16 Nov 2017 00:38:59 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/d1b2b199f9f4839a151ac54e41a545cf645d8e0d183b5355525cfd1d1903487e/classes.dex
+Thu, 16 Nov 2017 00:39:08 _internal.py[line:87] INFO 192.168.1.50 - - [16/Nov/2017 00:39:08] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 00:42:35 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Thu, 16 Nov 2017 00:42:35 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 00:42:35 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 00:42:35 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 00:42:47 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 00:42:47 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 00:43:06 _internal.py[line:87] INFO 192.168.1.50 - - [16/Nov/2017 00:43:06] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 00:43:33 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 00:43:33 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 00:43:52 _internal.py[line:87] INFO 192.168.1.50 - - [16/Nov/2017 00:43:52] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 00:44:33 _internal.py[line:87] INFO  * Detected change in '/home/modestos/Desktop/azuretest/python-docs-hello-world/main.py', reloading
+Thu, 16 Nov 2017 00:44:33 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 00:44:33 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 00:44:33 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 00:44:41 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 00:44:41 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 00:44:58 _internal.py[line:87] INFO 192.168.1.50 - - [16/Nov/2017 00:44:58] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:38:20 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Thu, 16 Nov 2017 10:38:20 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 10:38:20 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 10:38:20 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 10:38:32 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:38:32] "GET /tasks HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:38:32 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:38:32] "GET /favicon.ico HTTP/1.1" 404 -
+Thu, 16 Nov 2017 10:38:32 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:38:32] "GET /favicon.ico HTTP/1.1" 404 -
+Thu, 16 Nov 2017 10:38:49 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:38:49 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:39:10 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:39:10] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:39:13 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:39:13 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:39:34 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:39:34] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:39:38 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:39:38 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:39:57 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:39:57] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:40:01 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:40:01 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:40:20 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:40:20] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:40:24 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:40:24 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:40:41 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:40:41] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:40:41 _internal.py[line:87] ERROR Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+Thu, 16 Nov 2017 10:40:44 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:40:44 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:41:01 _internal.py[line:87] INFO 127.0.0.1 - - [16/Nov/2017 10:41:01] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:41:13 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:41:13] "GET /tasks HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:41:21 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:41:21 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:41:39 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:41:39] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 10:43:54 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 10:43:54 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 10:44:10 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 10:44:10] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 11:06:22 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 11:06:22 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 11:06:39 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 11:06:39] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 11:06:39 _internal.py[line:87] ERROR Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+Thu, 16 Nov 2017 11:06:42 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 11:06:42 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 11:07:53 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Thu, 16 Nov 2017 11:07:53 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 11:07:53 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 11:07:53 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 11:08:14 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 11:08:14 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 11:08:29 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 11:08:29] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 11:08:29 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 11:08:29] "GET /favicon.ico HTTP/1.1" 404 -
+Thu, 16 Nov 2017 11:47:44 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Thu, 16 Nov 2017 11:47:44 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 11:47:44 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 11:47:44 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 11:47:55 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 11:47:55 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 11:48:31 _internal.py[line:87] INFO 127.0.0.1 - - [16/Nov/2017 11:48:31] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 11:48:45 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 11:48:45 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 11:49:22 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 11:49:22] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 12:05:32 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+Thu, 16 Nov 2017 12:05:32 _internal.py[line:87] INFO  * Restarting with stat
+Thu, 16 Nov 2017 12:05:33 _internal.py[line:87] WARNING  * Debugger is active!
+Thu, 16 Nov 2017 12:05:33 _internal.py[line:87] INFO  * Debugger PIN: 317-357-687
+Thu, 16 Nov 2017 12:06:25 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 12:06:26 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 12:06:59 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 12:06:59] "GET /apk HTTP/1.1" 200 -
+Thu, 16 Nov 2017 13:08:08 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 13:08:08] "GET /tasks HTTP/1.1" 200 -
+Thu, 16 Nov 2017 13:08:14 literadar.py[line:124] DEBUG APK app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Thu, 16 Nov 2017 13:08:15 literadar.py[line:181] DEBUG Extracting /home/modestos/Desktop/azuretest/python-docs-hello-world/Data/Decompiled/5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d/classes.dex
+Thu, 16 Nov 2017 13:08:32 _internal.py[line:87] INFO 172.20.240.40 - - [16/Nov/2017 13:08:32] "GET /apk HTTP/1.1" 200 -

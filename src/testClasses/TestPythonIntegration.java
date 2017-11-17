@@ -11,8 +11,8 @@ public class TestPythonIntegration {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 PythonInterpreter interpreter = new PythonInterpreter();
-		    interpreter.execfile("pythonscripts/literadar.py");
-		    PyObject str = interpreter.eval("repr(myClass.run(myClass(),'pythonscripts/app2.apk'))");
+		    interpreter.execfile("mypythonscripts/literadar.py");
+		    PyObject str = interpreter.eval("repr(myClass.run(myClass(),'mypythonscripts/app2.apk'))");
 		    System.out.println(str.toString());
 		    
 		    LibraryModel[] libModels;

@@ -17,7 +17,7 @@ import models.LibraryModel;
 
 
 
-public class main {
+public class Oldmain {
 
 	
 	public static String getJSON(String url) {
@@ -62,7 +62,7 @@ public class main {
 	}
 	
 	
-	public static ApplicationPermissionsModel getPermissions(String apkPath) throws IOException, InterruptedException {
+	public static ApplicationPermissionsModel getAPKPermissions(String apkPath) throws IOException, InterruptedException {
 		
 	    Process proc = Runtime.getRuntime().exec("java -jar PermissionChecker.jar "+apkPath);
 	    proc.waitFor();
@@ -99,7 +99,7 @@ public static final String serverIPandPort = "http://172.20.240.45:5000/apk";
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
-		ApplicationPermissionsModel apm=getPermissions(APKPATH);
+		ApplicationPermissionsModel apm=getAPKPermissions(APKPATH);
 		//System.out.println(apm.declared.toString());
 		Gson g= new Gson();
 		LibraryModel[] libModels;

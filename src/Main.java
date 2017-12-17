@@ -30,9 +30,9 @@ public class Main {
 	    }
 		
 	}
-public static final boolean WEBMODE=true;	
+	
 public static final String APKPATH="apks/app2.apk";
-public static final String serverIPandPort = "http://172.20.240.45:5000/apk";
+
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 

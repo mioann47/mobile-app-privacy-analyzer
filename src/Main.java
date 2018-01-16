@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.google.gson.Gson;
+
 
 import functionalities.APKAnalyzer;
 import models.ApplicationPermissionsModel;
@@ -32,8 +32,8 @@ public static final String APKPATH="apks/app2.apk";
 		APKAnalyzer apkAnalyzer = new APKAnalyzer();
 		
 		ApplicationPermissionsModel apm=apkAnalyzer.getAPKPermissions(APKPATH);
-		//System.out.println(apm.declared.toString());
-		Gson g= new Gson();
+		
+		
 		LibraryModel[] libModels=apkAnalyzer.getLibrariesPermissions(APKPATH);
 		
 	    ArrayList<String> libsPermissions = new ArrayList<String>();

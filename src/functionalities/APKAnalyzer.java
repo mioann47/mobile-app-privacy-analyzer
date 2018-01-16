@@ -16,7 +16,8 @@ public class APKAnalyzer {
 	public LibraryModel[] getLibrariesPermissions(String apkPath) {
 		PythonInterpreter interpreter = new PythonInterpreter();
 		interpreter.execfile("mypythonscripts/literadar.py");
-		PyObject str = interpreter.eval("repr(myClass.run(myClass(),'mypythonscripts/app2.apk'))");
+		String run="repr(myClass.run(myClass(),'"+apkPath+"'))";
+		PyObject str = interpreter.eval(run);
 		// System.out.println(str.toString());
 
 		LibraryModel[] libModels = null;

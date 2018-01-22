@@ -53,7 +53,7 @@ public static final String APKPATH="apks/app2.apk";
 	    printlist(apm.declared,"Permissions declared in apk");
 	    printlist(apm.notRequiredButUsed,"Permissions not declared but used in apk");
 	    printlist(apm.requiredAndUsed,"Permissions declared and used in apk");
-	    printlist(apm.requiredAndUsed,"Permissions declared and not used in apk");
+	    printlist(apm.requiredButNotUsed,"Permissions declared and not used in apk");
 	    printlist(libsPermissions,"Permissions used by Libraries but not declared in apk");
 	    
 	}

@@ -1,6 +1,5 @@
 package testClasses;
 import org.python.core.PyObject;
-import org.python.core.PyString;
 import org.python.util.PythonInterpreter;
 import com.google.gson.Gson;
 
@@ -14,7 +13,7 @@ public class TestPythonIntegration {
 		    interpreter.execfile("mypythonscripts/literadar.py");
 		    PyObject str = interpreter.eval("repr(myClass.run(myClass(),'mypythonscripts/app2.apk'))");
 		    System.out.println(str.toString());
-		    
+		    interpreter.close();
 		    LibraryModel[] libModels;
 		    Gson g= new Gson();
 		    libModels = g.fromJson(str.toString(), LibraryModel[].class);

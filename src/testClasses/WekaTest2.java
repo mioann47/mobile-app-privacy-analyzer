@@ -24,7 +24,7 @@ public class WekaTest2 {
             
             iBk.buildClassifier(train);
             
-            int counter=0;
+            
 
           
           

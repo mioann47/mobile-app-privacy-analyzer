@@ -1,8 +1,12 @@
 package functionalities;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 
+import org.python.core.PyClass;
+import org.python.core.PyInteger;
 import org.python.core.PyObject;
 import org.python.core.PyString;
 import org.python.util.PythonInterpreter;
@@ -51,5 +55,53 @@ public class APKAnalyzer {
 		return p;
 
 	}
+	
+	public LibraryModel[] getLibrariesPermissions2(String apkPath) {
+		PythonInterpreter pythonInterpreter = new PythonInterpreter();
+	 	pythonInterpreter.exec("from literadar import myClass");
+        PyClass dividerDef = (PyClass) pythonInterpreter.get("myClass");
+        PyObject divider = dividerDef.__call__();
+        PyObject pyObject = divider.invoke("run",new PyString("apks/app2.apk"));
+        String realResult = pyObject.toString();
+        pythonInterpreter.close();
+		// System.out.println(str.toString());
 
+		LibraryModel[] libModels = null;
+		Gson g = new Gson();
+		libModels = g.fromJson(realResult, LibraryModel[].class);
+		
+		// System.out.println("PRINT "+libModels[0].Library);
+		return libModels;
+	}
+	
+	
+	
+	public static void main(String[] args) throws Exception {
+		PythonInterpreter pythonInterpreter = new PythonInterpreter();
+	 	pythonInterpreter.exec("from myscript import myFuncts"); 
+	 	PyClass dividerDef = (PyClass) pythonInterpreter.get("myFuncts");
+        PyObject divider = dividerDef.__call__();
+        PyObject pyObject = divider.invoke("analyzeAPK",new PyString("apks/app2.apk"));
+        String realResult = pyObject.toString();
+        pythonInterpreter.close();
+	 	
+	 	if (true) return;
+		//ProcessBuilder pb = new ProcessBuilder("python","mypythonscripts/myscript.py");
+		//Process p = pb.start();
+		Process p = Runtime.getRuntime().exec("python mypythonscripts/myscript.py");
+		BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+		StringBuilder sb = new StringBuilder();
+
+	    String line = null;
+	   
+	      while ((line = in.readLine()) != null) {
+	    	  System.out.println(line);
+	        sb.append(line + "\n");
+	      }
+
+	    String x= sb.toString();
+		
+		
+
+}
 }

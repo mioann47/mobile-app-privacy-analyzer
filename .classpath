@@ -8,8 +8,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Modes/git/mobile-app-privacy-analyzer/libs/apktool_2.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Modes/git/mobile-app-privacy-analyzer/libs/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Modes/git/mobile-app-privacy-analyzer/libs/jython-standalone-2.7.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Modes/git/mobile-app-privacy-analyzer/libs/weka.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Modes/git/mobile-app-privacy-analyzer/libs/jsoup-1.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Modes/git/mobile-app-privacy-analyzer/libs/jython-standalone-2.7.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

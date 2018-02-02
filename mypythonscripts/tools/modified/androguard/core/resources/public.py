@@ -1925,11 +1925,11 @@ resources = {
 
 SYSTEM_RESOURCES = {
         "attributes": {
-            "forward": {k: v for k, v in resources['attr'].iteritems()},
-            "inverse": {v: k for k, v in resources['attr'].iteritems()}
+            "forward": dict([(k, v) for k, v in resources['attr'].iteritems()]),
+            "inverse": dict([(v, k) for k, v in resources['attr'].iteritems()])
         },
         "styles": {
-            "forward": {k: v for k, v in resources['style'].iteritems()},
-            "inverse": {v: k for k, v in resources['style'].iteritems()}
+            "forward": dict([(k, v) for k, v in resources['style'].iteritems()]),
+            "inverse": dict([(v, k) for k, v in resources['style'].iteritems()])
         }
 }

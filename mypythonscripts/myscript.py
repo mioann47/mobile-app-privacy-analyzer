@@ -253,5 +253,5 @@ class myFuncts:
 		analysis.show_Paths(d,addnetwork)
 		analysis.show_Paths(d,setWifiEnabled)
 
-
-myFuncts.analyzeAPK(myFuncts(),"apks/app.apk")
+f=myFuncts()
+f.analyzeAPK("apks/app.apk")

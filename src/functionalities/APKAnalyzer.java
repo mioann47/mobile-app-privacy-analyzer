@@ -77,7 +77,7 @@ public class APKAnalyzer {
 	
 	
 	public static void main(String[] args) throws Exception {
-		PythonInterpreter pythonInterpreter = new PythonInterpreter();
+		/*PythonInterpreter pythonInterpreter = new PythonInterpreter();
 	 	pythonInterpreter.exec("from myscript import myFuncts"); 
 	 	PyClass dividerDef = (PyClass) pythonInterpreter.get("myFuncts");
         PyObject divider = dividerDef.__call__();
@@ -85,7 +85,7 @@ public class APKAnalyzer {
         String realResult = pyObject.toString();
         pythonInterpreter.close();
 	 	
-	 	if (true) return;
+	 	if (true) return;*/
 		//ProcessBuilder pb = new ProcessBuilder("python","mypythonscripts/myscript.py");
 		//Process p = pb.start();
 		Process p = Runtime.getRuntime().exec("python mypythonscripts/myscript.py");

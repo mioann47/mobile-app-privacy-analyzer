@@ -877,9 +877,15 @@ def show_Path(vm, path):
   if isinstance(path, PathVar):
     dst_class_name, dst_method_name, dst_descriptor =  path.get_dst( cm )
     info_var = path.get_var_info()
-    print "%s %s (0x%x) ---> %s->%s%s" % (path.get_access_flag(),
+    ''' print "%s %s (0x%x) ---> %s->%s%s" % (path.get_access_flag(),
                                           info_var,
                                           path.get_idx(),
+                                          dst_class_name,
+                                          dst_method_name,
+                                          dst_descriptor)'''
+    print "%s--->%s->%s%s" % (
+                                          info_var,
+                                          
                                           dst_class_name,
                                           dst_method_name,
                                           dst_descriptor)
@@ -888,21 +894,32 @@ def show_Path(vm, path):
       src_class_name, src_method_name, src_descriptor =  path.get_src( cm )
       dst_class_name, dst_method_name, dst_descriptor =  path.get_dst( cm )
 
-      print "%d %s->%s%s (0x%x) ---> %s->%s%s" % (path.get_access_flag(),
+      '''print "%d %s->%s%s (0x%x) ---> %s->%s%s" % (path.get_access_flag(),
                                                   src_class_name,
                                                   src_method_name,
                                                   src_descriptor,
                                                   path.get_idx(),
                                                   dst_class_name,
                                                   dst_method_name,
-                                                  dst_descriptor)
+                                                  dst_descriptor)'''
+      print "%s->%s-->%s->%s" % (   src_class_name,
+                                                  src_method_name,
+                                                  
+                                                  
+                                                  dst_class_name,
+                                                  dst_method_name)      
     else:
       src_class_name, src_method_name, src_descriptor =  path.get_src( cm )
-      print "%d %s->%s%s (0x%x)" % (path.get_access_flag(),
+      '''print "%d %s->%s%s (0x%x)" % (path.get_access_flag(),
                                     src_class_name,
                                     src_method_name,
                                     src_descriptor,
-                                    path.get_idx())
+                                    path.get_idx())'''
+      print "%s->%s%s" % (
+                                    src_class_name,
+                                    src_method_name,
+                                    src_descriptor
+                                    )      
 
 #Added by AndroBugs
 def find_path_by_class_name(vm, paths, class_name):
@@ -982,6 +999,7 @@ def trace_Register_value_by_Param_in_source_Paths(vm, paths) :
 
     return l
 
+
 def get_Path(vm, path):
   x = {}
   cm = vm.get_class_manager()
@@ -1008,6 +1026,51 @@ def get_Path(vm, path):
 
   return x
 
+#Added by mioann47
+class PermissionMethodCall(object):
+
+    def __init__(self,callerFunction=None,permissionFunction=None,permissionName=None):
+        self.permissionName=permissionName
+        self.callerFunction=callerFunction
+        self.permissionFunction=permissionFunction
+#Added by mioann47
+def my_get_Path(vm, path,permname):
+  x = {}
+  cm = vm.get_class_manager()
+
+  if isinstance(path, PathVar):
+    dst_class_name, dst_method_name, dst_descriptor =  path.get_dst( cm )
+    info_var = path.get_var_info()
+    x["callerFunction"] = "%s" % info_var
+    x["permissionFunction"] = "%s->%s %s" % (dst_class_name, dst_method_name, dst_descriptor)
+    #x["idx"] = path.get_idx()
+
+  else:
+    if path.get_access_flag() == TAINTED_PACKAGE_CALL:
+      src_class_name, src_method_name, src_descriptor =  path.get_src( cm )
+      dst_class_name, dst_method_name, dst_descriptor =  path.get_dst( cm )
+
+      x["callerFunction"] = "%s->%s" % (src_class_name, src_method_name)
+      x["permissionFunction"] = "%s->%s" % (dst_class_name, dst_method_name)
+    else:
+      src_class_name, src_method_name, src_descriptor =  path.get_src( cm )
+      x["callerFunction"] = "%s->%s %s" % (src_class_name, src_method_name, src_descriptor)
+
+    #x["idx"] = path.get_idx()
+  ret=PermissionMethodCall(x["callerFunction"],x["permissionFunction"],permname)
+  return ret
+
+#Added by mioann47
+def my_get_Paths(vm, paths,permname):
+    """
+        Return paths of packages
+        :param vm: the object which represents the dex file
+        :param paths: a list of :class:`PathP` objects
+    """
+    full_paths = []
+    for path in paths:
+        full_paths.append(my_get_Path( vm, path,permname ))
+    return full_paths
 
 def show_Paths(vm, paths):
     """
@@ -1029,6 +1092,7 @@ def get_Paths(vm, paths):
     for path in paths:
         full_paths.append(get_Path( vm, path ))
     return full_paths
+
 
 
 def show_PathVariable(vm, paths):

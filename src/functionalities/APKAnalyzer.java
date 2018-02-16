@@ -6,11 +6,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import org.python.core.PyClass;
-import org.python.core.PyInteger;
-import org.python.core.PyObject;
-import org.python.core.PyString;
-import org.python.util.PythonInterpreter;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -21,17 +16,27 @@ import models.PermissionMethodCallModel;
 
 public class APKAnalyzer {
 
-	public LibraryModel[] getLibrariesPermissions(String apkPath) {
-		PythonInterpreter interpreter = new PythonInterpreter();
-		interpreter.execfile("mypythonscripts/literadar.py");
-		String run="repr(myClass.run(myClass(),'"+apkPath+"'))";
-		PyObject str = interpreter.eval(run);
-		// System.out.println(str.toString());
+	public LibraryModel[] getLibrariesPermissions(String apkPath) throws IOException {
+		String run="python mypythonscripts/literadar.py -f "+apkPath;
+		Process p = Runtime.getRuntime().exec(run);
+		BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+		StringBuilder sb = new StringBuilder();
+
+	    String line = null;
+	   
+	      while ((line = in.readLine()) != null) {
+	    	  //System.out.println(line);
+	        sb.append(line + "\n");
+	      }
+
+	    String x= sb.toString();
+		//System.out.println(x);
+		
 
 		LibraryModel[] libModels = null;
 		Gson g = new Gson();
-		libModels = g.fromJson(str.toString(), LibraryModel[].class);
-		interpreter.close();
+		libModels = g.fromJson(x, LibraryModel[].class);
+	
 		// System.out.println("PRINT "+libModels[0].Library);
 		return libModels;
 	}
@@ -60,23 +65,6 @@ public class APKAnalyzer {
 
 	}
 	
-	public LibraryModel[] getLibrariesPermissions2(String apkPath) {
-		PythonInterpreter pythonInterpreter = new PythonInterpreter();
-	 	pythonInterpreter.exec("from literadar import myClass");
-        PyClass dividerDef = (PyClass) pythonInterpreter.get("myClass");
-        PyObject divider = dividerDef.__call__();
-        PyObject pyObject = divider.invoke("run",new PyString("apks/app2.apk"));
-        String realResult = pyObject.toString();
-        pythonInterpreter.close();
-		// System.out.println(str.toString());
-
-		LibraryModel[] libModels = null;
-		Gson g = new Gson();
-		libModels = g.fromJson(realResult, LibraryModel[].class);
-		
-		// System.out.println("PRINT "+libModels[0].Library);
-		return libModels;
-	}
 	
 	public ApkModel getApkInformation(String apkPath) throws IOException {
 		String run="python mypythonscripts/myscript.py -m analyze -f "+apkPath;

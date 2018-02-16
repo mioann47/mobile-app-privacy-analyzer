@@ -19,10 +19,10 @@
 #
 #   main function for instant detection.
 
-
+import argparse
 import sys
 import litedextree
-from ._settings import *
+from _settings import *
 import dex_parser
 import hashlib
 import zipfile
@@ -235,7 +235,12 @@ class myClass:
         res = lrd.compare()
         return (res)
 
-
+ap = argparse.ArgumentParser()
+ap.add_argument("-f", "--file", required = True,
+	help = "Apk file path (apk file)")
+args = vars(ap.parse_args())
+c=myClass()
+print(c.run(args["file"]))
 '''
 if __name__ == '__main__':
     if len(sys.argv) != 2:

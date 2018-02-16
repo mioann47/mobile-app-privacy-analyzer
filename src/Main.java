@@ -31,7 +31,7 @@ public class Main {
 		
 	}
 	
-public static final String APKPATH="apks/app.apk";
+public static final String APKPATH="apks/app3.apk";
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub

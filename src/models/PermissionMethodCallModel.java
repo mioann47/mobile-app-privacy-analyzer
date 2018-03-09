@@ -1,15 +1,48 @@
 package models;
 
 public class PermissionMethodCallModel {
-	String permissionName;
-	String callerFunction;
-	String permissionFunction;
+	private String permissionName;
+	private String callerFunction;
+	private String permissionFunction;
+
+	
+	
+	/**
+	 * 
+	 */
+	public PermissionMethodCallModel() {
+		super();
+	}
 
 	PermissionMethodCallModel(String callerFunction, String permissionFunction, String permissionName) {
 		this.permissionName = permissionName;
 		this.callerFunction = callerFunction;
 		this.permissionFunction = permissionFunction;
 
+	}
+
+	public String getPermissionName() {
+		return permissionName;
+	}
+
+	public void setPermissionName(String permissionName) {
+		this.permissionName = permissionName;
+	}
+
+	public String getCallerFunction() {
+		return callerFunction;
+	}
+
+	public void setCallerFunction(String callerFunction) {
+		this.callerFunction = callerFunction;
+	}
+
+	public String getPermissionFunction() {
+		return permissionFunction;
+	}
+
+	public void setPermissionFunction(String permissionFunction) {
+		this.permissionFunction = permissionFunction;
 	}
 
 	public void print() {
@@ -26,9 +59,10 @@ public class PermissionMethodCallModel {
 			return true;
 		return false;
 	}
+
 	@Override
 	public String toString() {
-		return permissionName+"\n"+callerFunction+"\n"+permissionFunction+"\n\n";
-		
+		return permissionName + "\n" + callerFunction + "\n" + permissionFunction + "\n\n";
+
 	}
 }

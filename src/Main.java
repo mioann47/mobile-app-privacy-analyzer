@@ -11,6 +11,7 @@ import functionalities.APKAnalyzer;
 import functionalities.MalwarePrediction;
 import models.ApplicationPermissionsModel;
 import models.LibraryModel;
+import models.Paths;
 import models.PermissionMethodCallModel;
 import weka.classifiers.Classifier;
 import weka.core.Attribute;
@@ -46,7 +47,7 @@ public static final String APKPATH="apks/app2.apk";
 	    ArrayList<String> libsPermissions = new ArrayList<String>();
 	    
 	    for (int i=0;i<libModels.length;i++) {
-	    	libsPermissions.addAll(libModels[i].Permission);
+	    	libsPermissions.addAll(libModels[i].getPermission());
 	    }
 
 	    Set<String> hs = new HashSet<>();
@@ -55,39 +56,32 @@ public static final String APKPATH="apks/app2.apk";
 	    libsPermissions.addAll(hs);
 	    
 
-	    libsPermissions.removeAll(apm.declared);
+	    libsPermissions.removeAll(apm.getDeclared());
 
-	    printlist(apm.declared,"Permissions declared in apk");
-	    printlist(apm.notRequiredButUsed,"Permissions not declared but used in apk");
-	    printlist(apm.requiredAndUsed,"Permissions declared and used in apk");
-	    printlist(apm.requiredButNotUsed,"Permissions declared and not used in apk");
+	    printlist(apm.getDeclared(),"Permissions declared in apk");
+	    printlist(apm.getNotRequiredButUsed(),"Permissions not declared but used in apk");
+	    printlist(apm.getRequiredAndUsed(),"Permissions declared and used in apk");
+	    printlist(apm.getRequiredButNotUsed(),"Permissions declared and not used in apk");
 	    printlist(libsPermissions,"Permissions used by Libraries but not declared in apk");
 	    
 	    
-	    Instances myAttributes = new Instances(new BufferedReader(new FileReader("Datasets/myAttributes.arff")));
-		int attributesNumber = myAttributes.numAttributes();
-		myAttributes.setClassIndex(attributesNumber - 1);
-
-		ArrayList<Attribute> attributeList = new ArrayList<Attribute>();
-		for (int i = 0; i < attributesNumber; i++) {
-			attributeList.add(myAttributes.attribute(i));
-		}
 
 
-		Classifier cls = (Classifier) weka.core.SerializationHelper.read("myModel.model");
+
+		Classifier cls = (Classifier) weka.core.SerializationHelper.read(Paths.wekaModelPath);
 		
 		ArrayList<String> mlist= new ArrayList<String>();
-		mlist.addAll(apm.declared);
-		mlist.addAll(apm.notRequiredButUsed);
+		mlist.addAll(apm.getDeclared());
+		mlist.addAll(apm.getNotRequiredButUsed());
 		
-		MalwarePrediction malpred = new MalwarePrediction(cls, mlist, attributeList,attributesNumber);
+		MalwarePrediction malpred = new MalwarePrediction(cls, mlist);
 		if (malpred.predict()==0)
 		System.out.println("Not Malware");
 		else System.out.println("Malware");
 	    
 		ArrayList<String> usedpermissionsList= new ArrayList<String>();
-		usedpermissionsList.addAll(apm.requiredAndUsed);
-		usedpermissionsList.addAll(apm.notRequiredButUsed);
+		usedpermissionsList.addAll(apm.getRequiredAndUsed());
+		usedpermissionsList.addAll(apm.getNotRequiredButUsed());
 		
 		apkAnalyzer.getApkInformation(APKPATH);
 		ArrayList<PermissionMethodCallModel> callsList=apkAnalyzer.getCalls(APKPATH, usedpermissionsList);

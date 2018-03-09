@@ -10,6 +10,18 @@ public class ApkModel {
 	private String isDebuggable;
 	private String isAdbBackupEnabled;
 	private String appName;
+	
+	
+	
+	
+	
+	/**
+	 * 
+	 */
+	public ApkModel() {
+		super();
+	}
+	
 	/**
 	 * @param packageName
 	 * @param packageVersionName

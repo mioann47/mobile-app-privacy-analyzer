@@ -134,3 +134,17 @@ Fri, 16 Feb 2018 02:41:43 literadar.py[line:124] DEBUG APK apks/app3.apk's MD5 i
 Fri, 16 Feb 2018 02:41:43 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\89a8c758f45d86bf0aee1496fd48036fad55805927327d89af6ec1d7337a3938\classes.dex
 Fri, 09 Mar 2018 23:20:31 literadar.py[line:124] DEBUG APK apks/app3.apk's MD5 is 89a8c758f45d86bf0aee1496fd48036fad55805927327d89af6ec1d7337a3938
 Fri, 09 Mar 2018 23:20:31 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\89a8c758f45d86bf0aee1496fd48036fad55805927327d89af6ec1d7337a3938\classes.dex
+Sat, 10 Mar 2018 00:49:12 literadar.py[line:124] DEBUG APK apks/app.apk's MD5 is 8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec
+Sat, 10 Mar 2018 00:49:12 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec\classes.dex
+Sat, 10 Mar 2018 00:49:53 literadar.py[line:124] DEBUG APK apks/app.apk's MD5 is 8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec
+Sat, 10 Mar 2018 00:49:53 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\8bd49c356cb46235a29bed3180d1097ecc4d031c6ad5f96b87030661113314ec\classes.dex
+Sat, 10 Mar 2018 00:50:22 literadar.py[line:124] DEBUG APK apks/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Sat, 10 Mar 2018 00:50:22 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex
+Sat, 10 Mar 2018 01:08:54 literadar.py[line:124] DEBUG APK apks/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Sat, 10 Mar 2018 01:08:55 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex
+Sat, 10 Mar 2018 01:26:22 literadar.py[line:124] DEBUG APK apks/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Sat, 10 Mar 2018 01:26:22 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex
+Sat, 10 Mar 2018 01:31:05 literadar.py[line:124] DEBUG APK apks/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Sat, 10 Mar 2018 01:31:05 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex
+Sat, 10 Mar 2018 01:32:08 literadar.py[line:124] DEBUG APK apks/app2.apk's MD5 is 5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d
+Sat, 10 Mar 2018 01:32:08 literadar.py[line:181] DEBUG Extracting C:\Users\Modes\git\mobile-app-privacy-analyzer\mypythonscripts\Data\Decompiled\5c8920b2d3c2f4f4c9a994fe22f7931c75c6e1dc1b9e9925d9132dd325348c9d\classes.dex

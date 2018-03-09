@@ -120,7 +120,7 @@ public static final String serverIPandPort = "http://172.20.240.45:5000/apk";
 		
 		}
 	    ArrayList<String> libsPermissions = new ArrayList<String>();
-	    
+	    /*
 	    for (int i=0;i<libModels.length;i++) {
 	    	libsPermissions.addAll(libModels[i].Permission);
 	    }
@@ -138,7 +138,7 @@ public static final String serverIPandPort = "http://172.20.240.45:5000/apk";
 	    printlist(apm.requiredAndUsed,"Permissions declared and used in apk");
 	    printlist(apm.requiredAndUsed,"Permissions declared and not used in apk");
 	    printlist(libsPermissions,"Permissions used by Libraries but not declared in apk");
-	    
+	    */
 	}
 
 }

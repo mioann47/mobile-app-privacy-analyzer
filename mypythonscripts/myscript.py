@@ -51,9 +51,8 @@ def isNullOrEmptyString(input_string, strip_whitespaces=False):
 
 def get_hash_by_filename(filename):
 	sha256 = None
-	with open(filename) as f:
-		data = f.read()
-		sha256 = hashlib.sha256(data).hexdigest()
+	app = open(filename, 'rb').read()
+	sha256= hashlib.sha256(app).hexdigest()
 	return sha256
 
 

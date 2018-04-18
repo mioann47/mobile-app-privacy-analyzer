@@ -85,7 +85,7 @@ public static final String APKPATH="apks/app2.apk";
 		
 		apkAnalyzer.getApkInformation(APKPATH);
 		ArrayList<PermissionMethodCallModel> callsList=apkAnalyzer.getCalls(APKPATH, usedpermissionsList);
-		System.out.println(callsList.toString());
+		//System.out.println(callsList.toString());
 	}
 
 }

@@ -114,7 +114,7 @@ public class APKAnalyzer {
 		}
 
 		String x = sb.toString();
-		// System.out.println(x);
+		 System.out.println(x);
 		Gson g = new Gson();
 		ArrayList<PermissionMethodCallModel> calls = g.fromJson(x,
 				new TypeToken<ArrayList<PermissionMethodCallModel>>() {
